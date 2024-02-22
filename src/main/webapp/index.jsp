@@ -8,11 +8,13 @@
 </head>
 <body>
 
-<h1>dgfhbnm,.</h1>
-<a href="about">Aubout</a>
+<h1>Servlet Tutrial</h1>
+<a href="web">Servlet</a>
+<br>
+<a href="gs">Generic Servlet</a>
+<br>
+<a href="hs">Http Servlet</a>
 
 <br>
-
-<a href="login">Login Servlet</a>
 </body>
 </html>

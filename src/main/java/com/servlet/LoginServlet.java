@@ -16,7 +16,7 @@ public class LoginServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("Login  servlet works");
 		PrintWriter writer= resp.getWriter();
-		writer.print("<h1> Forn Servlet</h1>");
+		writer.print("<h1> Servlet</h1>");
 		writer.println(writer);
 	}
 	

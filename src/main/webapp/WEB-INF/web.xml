@@ -3,16 +3,36 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
-  
-  <servlet>
-  <servlet-name>first</servlet-name>
-  	<servlet-class>com.servlet.First</servlet-class> 
-  </servlet>
-  
-  <servlet-mapping>
-  	<servlet-name>first</servlet-name>
-  	<url-pattern>/web</url-pattern>
-  </servlet-mapping>
-  
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>com.servlet.First</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/web</url-pattern>
+	</servlet-mapping>
+	<!-- Generic Servlet -->
+	<servlet>
+		<servlet-name>GrnericServelet</servlet-name>
+		<servlet-class>com.servlet.GrnericServelet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GrnericServelet</servlet-name>
+		<url-pattern>/gs</url-pattern>
+	</servlet-mapping>
+
+<!-- Http Servlet -->
+<servlet>
+	<servlet-name>HttpServelet</servlet-name>
+	<servlet-class>com.servlet.HttpServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>HttpServelet</servlet-name>
+	<url-pattern>/hs</url-pattern>
+</servlet-mapping>
 </web-app>
