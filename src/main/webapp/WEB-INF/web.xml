@@ -25,14 +25,28 @@
 		<url-pattern>/gs</url-pattern>
 	</servlet-mapping>
 
-<!-- Http Servlet -->
-<servlet>
-	<servlet-name>HttpServelet</servlet-name>
-	<servlet-class>com.servlet.HttpServlet</servlet-class>
-</servlet>
+	<!-- Http Servlet -->
+	<servlet>
+		<servlet-name>HttpServelet</servlet-name>
+		<servlet-class>com.servlet.HttpServlet</servlet-class>
+	</servlet>
 
-<servlet-mapping>
-	<servlet-name>HttpServelet</servlet-name>
-	<url-pattern>/hs</url-pattern>
-</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HttpServelet</servlet-name>
+		<url-pattern>/hs</url-pattern>
+	</servlet-mapping>
+
+	<!-- Form -->
+	<servlet>
+		<servlet-name>form</servlet-name>
+		<servlet-class>com.formcreate.Form</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>form</servlet-name>
+		<url-pattern>/form</url-pattern>
+	</servlet-mapping>
+
 </web-app>
+
+

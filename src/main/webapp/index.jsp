@@ -15,6 +15,8 @@
 <br>
 <a href="hs">Http Servlet</a>
 
+<a href="form">create form</a>
+
 <br>
 </body>
 </html>
